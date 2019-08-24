@@ -1,0 +1,14 @@
+{
+    "hackthesix": {
+        "awscloudformation": {
+            "AuthRoleName": "hackthe6ix-2019-hackthesix-20190824162452-authRole",
+            "UnauthRoleArn": "arn:aws:iam::498185853988:role/hackthe6ix-2019-hackthesix-20190824162452-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::498185853988:role/hackthe6ix-2019-hackthesix-20190824162452-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "hackthe6ix-2019-hackthesix-20190824162452-deployment",
+            "UnauthRoleName": "hackthe6ix-2019-hackthesix-20190824162452-unauthRole",
+            "StackName": "hackthe6ix-2019-hackthesix-20190824162452",
+            "StackId": "arn:aws:cloudformation:us-east-1:498185853988:stack/hackthe6ix-2019-hackthesix-20190824162452/3afbe7a0-c6ad-11e9-a33b-0a6bdb6a0e76"
+        }
+    }
+}
