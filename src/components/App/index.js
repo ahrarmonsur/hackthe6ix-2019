@@ -8,6 +8,8 @@ import Container from '@material-ui/core/Container';
 import Header from 'components/Header';
 import Nav from 'components/Nav';
 import AutoInsuranceInfo from 'components/AutoInsurance';
+import Profile from 'components/Profile';
+import * as ROUTES from '../../constants/routes';
 
 import './index.sass';
 
@@ -17,8 +19,8 @@ class App extends Component {
 			<div className="app">
 				<Header/>
 				<Container id='mainContainer'>
-					<Route path='/auto' component={AutoInsuranceInfo} />
-					<Route path='/profile/edit' component={AutoInsuranceInfo} />
+					<Route path={ROUTES.CIRCLES} component={AutoInsuranceInfo} />
+					<Route path={ROUTES.PROFILE_EDIT} component={Profile} />
 				</Container>
 				<Nav/>
 			</div>
