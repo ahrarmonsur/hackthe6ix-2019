@@ -6,6 +6,7 @@ import {
 import logo from '../../logo.svg';
 import Header from 'components/Header';
 import Nav from 'components/Nav';
+import Home from 'components/Home';
 
 import './index.sass';
 
@@ -13,11 +14,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="app">
-				<Header/>
-				<div className='mainContainer'>
-					<img src={logo} className="App-logo" alt="logo" />
-					{this.props.children}
-				</div>
+                <Home/>
 				<Nav/>
 			</div>
 		);
