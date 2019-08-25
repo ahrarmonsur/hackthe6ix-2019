@@ -4,3 +4,5 @@ export const CLAIMS = '/claims';
 export const ACCOUNT = '/account';
 export const FORGOT_PASSWORD = '/forgot-pw';
 export const PROFILE_EDIT = '/profile/edit';
+export const AUTO_INFO = '/auto';
+
