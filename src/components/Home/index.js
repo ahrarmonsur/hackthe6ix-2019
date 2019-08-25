@@ -16,12 +16,10 @@ class Home extends Component {
         const classes = this.useStyles;
         return(
             <div className = "home">
-                <Typography variant="h6" gutterBottom>
-                    Welcome Daenerys
-                </Typography>
-                <Typography variant="h4">
-                    Let's get you covered
-                </Typography>
+                <div className="intro">
+                    <h4 className="welcome center-block">Welcome Daenerys</h4>
+                    <h2 className="secondWelcome center-block">Let's get you covered</h2>
+                </div>
                 <style name="MyButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
                     <item name="shapeAppearanceOverlay">@style/MyShapeAppearance</item>
                 </style>
