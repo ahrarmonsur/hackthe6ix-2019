@@ -6,14 +6,13 @@ import {
 } from 'react-router-dom';
 import App from './components/App';
 
-import './index.css';
+import './index.sass';
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 	<Router>
-		<Route path='/' component={App}>
-		</Route>
+		<Route path='/' component={App} />
 	</Router>,
 	document.getElementById('root')
 );

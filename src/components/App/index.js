@@ -3,9 +3,11 @@ import {
 	BrowserRouter as Router,
 	Route,
 } from 'react-router-dom';
-import logo from '../../logo.svg';
+import Container from '@material-ui/core/Container';
+
 import Header from 'components/Header';
 import Nav from 'components/Nav';
+import AutoInsuranceInfo from 'components/AutoInsurance';
 
 import './index.sass';
 
@@ -14,10 +16,10 @@ class App extends Component {
 		return (
 			<div className="app">
 				<Header/>
-				<div className='mainContainer'>
-					<img src={logo} className="App-logo" alt="logo" />
-					{this.props.children}
-				</div>
+				<Container id='mainContainer'>
+					<Route path='/auto' component={AutoInsuranceInfo} />
+					<Route path='/profile/edit' component={AutoInsuranceInfo} />
+				</Container>
 				<Nav/>
 			</div>
 		);
